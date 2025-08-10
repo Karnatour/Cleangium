@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "net.fabricmc.fabric.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "target": "@env(DEFAULT)",
+  "client": [
+    "client.indigo.renderer.BufferBuilderOffsetAccessor",
+    "client.indigo.renderer.MixinBlockModelRenderer",
+    "client.indigo.renderer.MixinBufferBuilder",
+    "client.indigo.renderer.MixinChunkRenderer",
+    "renderer.client.MixinBakedModel",
+    "renderer.client.MixinBlockRendererDispatcher",
+    "renderer.client.MixinTextureMap"
+  ],
+  "mixins": [],
+  "server": [],
+  "minVersion": "0.8.7"
+}

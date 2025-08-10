@@ -7,6 +7,7 @@ if (propertyBool('publish_to_maven')) {
     assertProperty('maven_url')
     publishing {
         repositories {
+            mavenLocal()
             maven {
                 name propertyString('maven_name').replaceAll("\\s", "")
                 url propertyString('maven_url')
